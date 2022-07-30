@@ -1,0 +1,181 @@
+
+
+
+.title{
+    color: rgb(22, 22, 22);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-shadow: 4px 4px 8px rgba(183, 116, 183, 0.266);
+    font-size: 2.25rem;
+}
+body::before{
+    content: '';
+    height:100rem;
+    width: 100%;
+    background-color:#6c757de3;
+    background-repeat: none;
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    opacity: 0.2;
+    z-index: -1;
+     position: relative;
+}
+
+.card{
+    max-width: 330px;
+    box-shadow: 2.3rem 2.3rem 2.3rem rgba(0, 0, 0, 0.575);
+}
+.glass{
+    backdrop-filter: blur(0.1rem);
+   border-top-color: rgba(225,225,225,0.5) ;
+   border-left-color: rgba(225,225,225,0.5);
+   border-bottom-color: rgba(225,225,225,0.1);
+   border-right-color: rgba(225,225,225,0.1);
+
+}
+
+.cb1{
+
+    background-color: rgba(105, 114, 80, 0.623);
+
+}
+
+.cb2{
+    color:black;
+    background: linear-gradient(to right bottom, rgba(255, 242, 3, 0.963), rgba(200, 190, 8, 0.842));
+
+
+}
+
+.modal-body{
+    background-color: rgba(162, 164, 157, 0.329);
+
+}
+
+
+
+#carouselExampleIndicators{
+    max-height: 1000px;
+    max-width: 800px;
+    margin-bottom: 2rem;
+    border: 0.5rem solid rgba(56, 56, 56, 0.247);
+    border-radius: 1rem;
+}
+
+
+section.recent3Newsletters {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 3rem;
+    font-family: Nunito, sans-serif;
+  }
+  div.recentNewsletters {
+    width: 100%;
+    max-width: 98rem;
+    padding: 2rem 3rem;
+    background-color: white;
+    box-shadow: 0 1.4rem 8em rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    transition: transform 500ms ease-in;
+  }
+  
+  /* div.recentNewsletters:hover {
+      transform: translateY(-0.4rem);
+    } */
+  .newsletter__Img {
+    min-width: 20rem;
+    max-width: 20rem;
+    height: 20rem;
+    transform: translateX(-4.5rem);
+    position: relative;
+  }
+  .newsletter__Img img {
+    box-shadow: 0.5rem 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 15rem !important;
+    object-fit: fill;
+    display: block;
+    border-radius: 0.8rem;
+  }
+  div.date span {
+    display: block;
+    color: rgba(53, 58, 65, 0.7);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.2rem 0;
+  }
+  div h2.title {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    margin: 1rem 0 2rem;
+    color: #fed136;
+  }
+  div p.newsletter__Description {
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 1.5rem;
+  }
+  div.modal_header {
+    background-color: #fed136;
+    color: rgb(53, 58, 65);
+    text-transform: uppercase;
+  }
+   button.modal-btn {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 0.7rem 1.5rem;
+    color: rgb(53, 58, 65);
+    background-image: linear-gradient(to right, #fec301 0%, #fee180 100%);
+    border: none;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    transition-property: linear-gradient;
+    transition-duration: 1s;
+    border-radius: 0.5rem;
+  }
+   button.modal-btn:hover {
+    background-image: linear-gradient(to right, #fee180 0%, #fec301 100%);
+  }
+  .modal_header button {
+    background-color: rgb(53, 58, 65);
+    transition: all 1s ease-out;
+  }
+  .modal_header button:hover {
+    background-color: white;
+    color: rgb(53, 58, 65);
+    border: none;
+  };
+  
+  
+  /* Media Queries */
+  @media screen and (max-width: 1068px) {
+    div.recentNewsletters {
+      max-width: 80rem;
+    }
+    div.newsletter__Img {
+      max-width: 16rem;
+      min-width: 16rem;
+    }
+  }
+  @media screen and (max-width: 868px) {
+    html{
+      font-size: 14px;
+    }
+    div.recentNewsletters {
+      margin-top: 1rem;
+      padding: 4rem 2rem;
+      flex-direction: column;
+    }
+    div.newsletter__Img {
+      max-width: 100%;
+      min-width: 100%;
+      
+      transform: translate(0, -5.5rem);
+    }
+  }

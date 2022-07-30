@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+#bgim{background-image: url('school.jpg');
+    height: 37.143vw;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    }
+
+    </style>
+</head>
+
+<body bgcolor="red">
+    <div id="bgim" class="display-3 title text-center"  > UPCOMING </div>
+
+     <!-- title -->
+   <div class="display-3 title text-center mt-5">Upcoming Events</div>
+
+  <!-- carousel  -->
+  <div class="container-fluid d-flex justify-content-center">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" class="bg-dark px-3 py-1 mb-2  border rounded active" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" class="bg-dark px-3 py-1 mb-2 border rounded" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" class="bg-dark px-3 py-1 mb-2 border rounded " data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="child smile.jpg" class="d-block w-100" alt="...">
+                <div class="container-xl text-center bg-info">Our Efforts Towards Poor Children
+                </div>
+            </div>
+            <div class="carousel-item" id="img2">
+                <img src="child smile.jpg" class="d-block w-100" alt="...">
+                <div class="container-xl text-center bg-info">Our Efforts Towards Skill Development
+                </div>
+            </div>
+            <div class="carousel-item" id="img3">
+                <img src="child smile.jpg" class="d-block w-100" alt="...">
+                <div id="Cont3" class="container-xl text-center bg-info ">Our Efforts Towards Education
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br>
+    <!-- title -->
+    <div class="display-3 title text-center" >EVENTS</div>
+
+    <!-- cards -->
+    <div class="container-fluid">
+
+        <!-- This is row 1 -->
+        <div class="row g-3 m-3 mb-5 justify-content-around">
+
+           
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card four shadow-lg">
+                    <img src="test_image5.jpg" height="380px" alt="Rich puppy" class="card-img-top">
+                    <div class="card-img-overlay d-flex pt-0 justify-content-center align-items-start ">
+                        <div class="container py-2 mx-5 text-center text-light rounded-bottom h4 glass cb2">Event Name
+                        </div>
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                        <button type="button" class="btn btn-outline-light glass cb1" data-bs-toggle="modal"
+                            data-bs-target="#eventInfo6">know more</button>
+                        <div class="modal fade" id="eventInfo6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header d-flex justify-content-center">
+                                        <h5 class="modal-title text-secondary" id="exampleModalLabel">Event name</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container d-flex justify-content-around mb-3"> <img
+                                                src="test_image5.jpg" height="400px" width="390px" alt=""></div>
+                                        <p class="text-muted"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Voluptas ratione molestiae nulla expedita minima, ut dignissimos, iure
+                                            nesciunt minus molestias exercitationem iste voluptatum eveniet? Obcaecati
+                                            nam facilis dolorum perspiciatis debitis ab ullam autem accusantium quidem
+                                            omnis beatae dolores exercitationem iure, maxime sit quaerat pariatur! Harum
+                                            alias perspiciatis voluptatibus ipsam vel!</p>
+                                    </div>
+                                    <!-- <div class="modal-footer">
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card four shadow-lg">
+                    <img src="test_image4.jpg" height="380px" alt="Rich puppy" class="card-img-top">
+                    <div class="card-img-overlay d-flex pt-0 justify-content-center align-items-start ">
+                        <div class="container py-2 mx-5 text-center text-light rounded-bottom h4 glass cb2">Event Name
+                        </div>
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                        <button type="button" class="btn btn-outline-light glass cb1" data-bs-toggle="modal"
+                            data-bs-target="#eventInfo5">know more</button>
+                        <div class="modal fade" id="eventInfo5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header d-flex justify-content-center">
+                                        <h5 class="modal-title text-secondary" id="exampleModalLabel">Event name</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container d-flex justify-content-around mb-3"> <img
+                                                src="test_image4.jpg" height="400px" width="390px" alt=""></div>
+                                        <p class="text-muted"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Voluptas ratione molestiae nulla expedita minima, ut dignissimos, iure
+                                            nesciunt minus molestias exercitationem iste voluptatum eveniet? Obcaecati
+                                            nam facilis dolorum perspiciatis debitis ab ullam autem accusantium quidem
+                                            omnis beatae dolores exercitationem iure, maxime sit quaerat pariatur! Harum
+                                            alias perspiciatis voluptatibus ipsam vel!</p>
+                                    </div>
+                                    <!-- <div class="modal-footer">
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card four shadow-lg">
+                    <img src="test_image3.jpg" height="380px" alt="Rich puppy" class="card-img-top">
+                    <div class="card-img-overlay d-flex pt-0 justify-content-center align-items-start">
+                        <div class="container py-2 mx-5 text-center text-light rounded-bottom h4 glass cb2">Event Name
+                        </div>
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                        <button type="button" class="btn btn-outline-light glass cb1" data-bs-toggle="modal"
+                            data-bs-target="#eventInfo6">know more</button>
+                        <div class="modal fade" id="eventInfo6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header d-flex justify-content-center">
+                                        <h5 class="modal-title text-secondary" id="exampleModalLabel">Event name</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container d-flex justify-content-around mb-3"> <img
+                                                src="test_image3.jpg" height="400px" width="390px" alt=""></div>
+                                        <p class="text-muted"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Voluptas ratione molestiae nulla expedita minima, ut dignissimos, iure
+                                            nesciunt minus molestias exercitationem iste voluptatum eveniet? Obcaecati
+                                            nam facilis dolorum perspiciatis debitis ab ullam autem accusantium quidem
+                                            omnis beatae dolores exercitationem iure, maxime sit quaerat pariatur! Harum
+                                            alias perspiciatis voluptatibus ipsam vel!</p>
+                                    </div>
+                                    <!-- <div class="modal-footer">
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card three shadow-lg border border-dark rounded">
+                    <div class="card-img-overlay d-flex pt-0 px-5 justify-content-center align-items-start">
+                        <div class="container bg-warning py-2 text-center rounded-bottom h4">Event Name</div>
+                    </div>
+                    <img src="test_image3.jpg" height="380px" alt="car backside" class="card-img-top">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                        <div class="btn btn-outline-light">Read more</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card three shadow-lg">
+                    <div class="card-img-overlay d-flex pt-0 px-5 justify-content-center align-items-start">
+                        <div class="container bg-warning py-2 text-center rounded-bottom h4">Event Name</div>
+                    </div>
+                    <img src="test_image1.jpg" height="380px" alt="car backside" class="card-img-top">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                        <div class="btn btn-outline-light">Read more</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card three shadow-lg">
+                    <div class="card-img-overlay d-flex pt-0 px-5 justify-content-center align-items-start">
+                        <div class="container bg-warning py-2 text-center rounded-bottom h4">Event Name</div>
+                    </div>
+                    <img src="test_image2.jpg" height="380px" alt="car backside" class="card-img-top">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                        <div class="btn btn-outline-light">Read more</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- card end  -->
+
+  
+
+  
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+<br><br><br>
+          <!-- Recent 3 Newsletters -->
+          <section class="newsletters">
+            <!-- Heading  -->
+            <div class="container-fluid text-center">
+                <h2 class="recentNewslettersHeading">Recent Events</h2>
+            </div>
+
+            <!-- 0 -->
+            <section class="recent3Newsletters">
+                <div class="recentNewsletters">
+                    <div class="newsletter__Img">
+                        <img src="prayas_sub_logo.png"
+                            alt="Newsletter Image">
+                    </div>
+                    <div class="info">
+                        <div class="date">
+                            <!-- <span>Sunday</span>
+                        <span>01 January 2021</span> -->
+                        </div>
+                        <h2 class="title">PRAYAS</h2>
+                        <p class="newsletter__Description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam dolores reiciendis repellendus, labore nam, minus magni est maxime ducimus doloremque sed eius nisi. Exercitationem iure nostrum quam a natus blanditiis.
+                        </p>
+
+                        <!-- Button -->
+                        <a href="https://gyws.org/gyws/assets/pdf/Pratirav Oct-Dec.pdf" target="blank_"
+                            rel="noopener noreferrer">
+                            <button type="button" class="btn btn-primary modal-btn">
+                                Read More
+                            </button></a>
+                    </div>
+
+                </div>
+                <!-- 1 -->
+            </section>
+
+
+            <!-- 0 -->
+            <section class="recent3Newsletters">
+                <div class="recentNewsletters">
+                    <div class="newsletter__Img">
+                        <img src="c99360bd4ba0612741e2a8317c033ed9.jpg"
+                            alt="Newsletter Image">
+                    </div>
+                    <div class="info">
+                        <div class="date">
+                            <!-- <span>Sunday</span>
+                        <span>01 January 2021</span> -->
+                        </div>
+                        <h2 class="title">Pratirav,July- September,2021 Edition</h2>
+                        <p class="newsletter__Description"> We present the July-September, 2021 edition of our
+                            Quarterly Newsletter 'Pratirav'.
+                            A glance at the newsletter would let you know all the initiatives undertaken by us and
+                            the progress made in this duration.
+                        </p>
+
+                        <!-- Button -->
+                        <a href="https://gyws.org/gyws/assets/pdf/Pratirav July to September 2021.pdf"
+                            target="blank_" rel="noopener noreferrer">
+                            <button type="button" class="btn btn-primary modal-btn">
+                                Read More
+                            </button></a>
+                    </div>
+
+                </div>
+                <!-- 1 -->
+            </section>
+
+
+            <!-- 1 -->
+            <section class="recent3Newsletters">
+                <div class="recentNewsletters">
+                    <div class="newsletter__Img">
+                        <img src="124.png"
+                            alt="Newsletter Image">
+                    </div>
+                    <div class="info">
+                        <div class="date">
+                            <!-- <span>Sunday</span>
+                        <span>01 January 2021</span> -->
+                        </div>
+                        <h2 class="title">Pratirav,April- June,2021 Edition</h2>
+                        <p class="newsletter__Description">How important is branding for an NGO?
+                            How can we prevent children from getting bored in the lockdown?
+                            Can we become SuperHeroes as well?
+                            <br>
+                            These and many more interesting topics are covered in this edition of Pratirav.
+                        </p>
+
+                        <!-- Button -->
+                        <a href="https://gyws.org/gyws/assets/pdf/April-June-2021.pdf" target="blank_"
+                            rel="noopener noreferrer">
+                            <button type="button" class="btn btn-primary modal-btn">
+                                Read More
+                            </button></a>
+                    </div>
+
+                </div>
+                <!-- 2 -->
+            </section>
+            <!-- 2 -->
+            <section class="recent3Newsletters">
+                <div class="recentNewsletters">
+                    <div class="newsletter__Img">
+                        <img src="download (2).png"
+                            alt="Newsletter Image">
+                    </div>
+                    <div class="info">
+                        <div class="date">
+                            <span>Sunday</span>
+                            <span>01 January 2021</span>
+                        </div>
+                        <h2 class="title">Pratirav,January- March,2021</h2>
+                        <p class="newsletter__Description">Have you wished for guidance while in a dilemma about
+                            possible career options?
+                            Living in the 21st century, do you think gender equality should still be a question or
+                            the
+                            norm?
+                            Are you brimming with ideas to tackle social problems and waiting for competitions to
+                            pitch
+                            others?
+                            <br>
+                            This edition of Pratirav contains our take on these.
+
+
+                        </p>
+
+                        <!--Button -->
+                        <a href="https://gyws.org/gyws/assets/pdf/January-March-2021.pdf" target="blank_"
+                            rel="noopener noreferrer">
+                            <button type="button" class="btn btn-primary modal-btn">
+                                Read More
+                            </button></a>
+                    </div>
+
+                </div>
+
+
+        </section>
+</body>
+
+</html>
